@@ -1,0 +1,19 @@
+<div style="padding-top:20px">
+  <form [formGroup]="commonService.loginForm" (submit) = onSubmit()>
+ 
+     <mat-form-field class="form-field" appearance="outline">
+        <mat-label>email</mat-label>
+        <input formControlName="email" matInput placeholder="email">
+        <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+      </mat-form-field>
+      
+      <mat-form-field appearance="outline">
+        <mat-label>password</mat-label>
+        <input formControlName="password" matInput placeholder="password" [type]="hide ? 'password' : 'text'">
+        <mat-icon class="eye-icon" matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+      </mat-form-field>
+        
+     <button type="submit" [disabled]="commonService.loginForm.invalid" #submit mat-raised-button>Login</button>
+    </form>      
+</div>

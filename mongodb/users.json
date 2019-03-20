@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5c91020dc0fcca43ac6492f3"},"fullName":"aradsad","email":"ara@gmail.com","password":"$2a$10$RDiJfMMhSt52K2KQMefVw..IcRNAv5RBqKnAXaWmjM5bGA6rrGwAu","saltSecret":"$2a$10$RDiJfMMhSt52K2KQMefVw.","__v":0}
+{"_id":{"$oid":"5c92011424690d334cbb6f57"},"fullName":"Sample","email":"sample@gmail.com","password":"$2a$10$P8h61A3lrxkxCdmRzO2wXObfnlawUbOpJHzX10Z0p85ZiDirqZUEO","saltSecret":"$2a$10$P8h61A3lrxkxCdmRzO2wXO","__v":0}

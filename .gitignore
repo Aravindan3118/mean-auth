@@ -1,0 +1,4 @@
+mean-auth1/node_modules/
+auth-server/node_modules/
+mean-auth1/src/environments/environment.ts
+auth-server/.env
